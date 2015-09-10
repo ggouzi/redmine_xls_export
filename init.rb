@@ -16,6 +16,8 @@ unless Redmine::Plugin.registered_plugins.keys.include?(XLSE_AssetHelpers::PLUGI
     version '0.2.1.t8'
 	url 'https://github.com/two-pack/redmine_xls_export'
 
+	
+	
     settings(:partial => 'settings/xls_export_settings',
              :default => {
                'relations' => '1',
